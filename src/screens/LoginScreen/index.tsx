@@ -51,7 +51,6 @@ const LoginScreen = ({navigation}: IProps) => {
             dataSend,
             '',
           );
-          console.log({res});
           if (!res || res?.error) {
             setLoading(false);
             setTextAlert(

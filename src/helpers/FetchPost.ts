@@ -5,7 +5,6 @@ const FetchPost = async (url: string, data: any, token: string) => {
       headers = {
         Accept: 'application/json',
         'Content-Type': 'application/json',
-        Authorization: 'Bearer ' + token,
       };
     } else {
       headers = {
